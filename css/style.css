@@ -1,0 +1,168 @@
+.fa-html5:hover {
+  color: #e34f26 !important;
+}
+
+.fa-css3-alt:hover {
+  color: #1680c0 !important;
+}
+
+.fa-js-square:hover {
+  color: #4679bd !important;
+}
+
+.fa-angular:hover {
+  color: #c3002f !important;
+}
+
+.fa-react:hover {
+  color: #61dafb !important;
+}
+
+.fa-node-js:hover {
+  color: #699f63 !important;
+}
+
+.fa-sass:hover {
+  color: #cf649a !important;
+}
+
+.fa-less:hover {
+  color: #1e416f !important;
+}
+
+.fa-wordpress:hover {
+  color: #21759b !important;
+}
+
+.fa-gulp:hover {
+  color: #eb4a4b !important;
+}
+
+.fa-grunt:hover {
+  color: #fba919 !important;
+}
+
+.fa-npm:hover {
+  color: #cc0001 !important;
+}
+
+.fa-php:hover {
+  color: #787cb4 !important;
+}
+
+.fa-android:hover {
+  color: #3ddb84 !important;
+}
+
+.fa-apple:hover {
+  color: #000 !important;
+}
+
+.fa-database:hover {
+  color: #428bc7 !important;
+}
+
+.fa-java:hover {
+  color: #5482a2 !important;
+}
+
+.fa-git:hover {
+  color: #3d2d00 !important;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #4267b2 !important;
+}
+
+.social-icons a.twitter:hover {
+  background-color: #1da1f2 !important;
+}
+
+.social-icons a.github:hover {
+  background-color: #24292e !important;
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #0077b5 !important;
+}
+
+.text-primary {
+  color: #00ba79 !important;
+}
+
+.bg-primary {
+  background-color: #365848 !important;
+}
+
+a {
+  color: #00ba79;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #365848;
+}
+
+body {
+  background-color: #343a40;
+  color: #c9d8e7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  text-transform: none;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  section.resume-section {
+    padding-top: 2rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav-scroll {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+    width: 100%;
+  }
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+p.lead {
+  font-size: 1.5rem;
+}
+
+.subheading {
+  text-transform: none;
+}
