@@ -34,14 +34,6 @@
   color: #21759b !important;
 }
 
-.fa-gulp:hover {
-  color: #eb4a4b !important;
-}
-
-.fa-grunt:hover {
-  color: #fba919 !important;
-}
-
 .fa-npm:hover {
   color: #cc0001 !important;
 }
@@ -68,6 +60,22 @@
 
 .fa-git:hover {
   color: #3d2d00 !important;
+}
+
+.fa-vuejs:hover {
+  color: #42b983 !important;
+}
+
+.fa-python:hover {
+  color: #2b5b84 !important;
+}
+
+.fa-magento:hover {
+  color: #f26322 !important;
+}
+
+.fa-yarn:hover {
+  color: #2188b6 !important;
 }
 
 .social-icons a.facebook:hover {
