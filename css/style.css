@@ -78,6 +78,10 @@
   color: #2188b6 !important;
 }
 
+.fa-linux:hover {
+  color: black !important;
+}
+
 .social-icons a.facebook:hover {
   background-color: #4267b2 !important;
 }
