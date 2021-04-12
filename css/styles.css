@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+.text-shadow {
+  text-shadow: 2px 2px 0 #0f0;
+}
+@layer components {
+  .btn-menu {
+    @apply h-10 flex items-center justify-center bg-green-500 text-black border border-black shadow-offset-black dark:shadow-offset-white hover:bg-green-300;
+  }
+  .section-title {
+    @apply text-4xl font-bold text-green-600 dark:text-green-400;
+  }
+  .yellow-text {
+    @apply text-lg font-semibold text-yellow-500 dark:text-yellow-300;
+  }
+  .ul-list {
+    @apply list-disc list-inside ml-2 dark:text-gray-300;
+  }
+}
