@@ -16,6 +16,9 @@ module.exports = {
           800: "#3f6212",
           900: "#365314",
         },
+        turquoise: "#46EBC8",
+        magenta: "#FF0E96",
+        unisa: "#ff7700",
       },
     },
     boxShadow: {
