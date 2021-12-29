@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "watch": "postcss css/styles.css -o main.css -w",
-    "prod": "cross-env NODE_ENV=production postcss css/styles.css -o main.css",
+    "dev": "tailwindcss -i css/styles.css -o main.css --watch",
+    "prod": "tailwindcss -i css/styles.css -o main.css --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,11 +18,6 @@
   },
   "homepage": "https://github.com/Valitutto/valitutto.github.io#readme",
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "cross-env": "^7.0.3",
-    "cssnano": "^5.0.2",
-    "postcss": "^8.2.15",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.1.2"
+    "tailwindcss": "^3.0.7"
   }
 }
